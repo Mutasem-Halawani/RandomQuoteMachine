@@ -12,14 +12,19 @@ body{
   margin: 0;
   background-color:#E74C3C;
   display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height:100vh;
 }
 
-.box{
+header{
+  color: aliceblue;
+}
+
+main.box{
   position: relative;
-  background-color:#2C3E50;
+  background-color:white;
   width:50%;
   border-radius:10px;
   text-align:center;
@@ -35,8 +40,7 @@ img{
     bottom: 0.2rem;
 }
 
-.quote p{
-  color: orange; 
+button{
+    color: white;
 }
-
 
