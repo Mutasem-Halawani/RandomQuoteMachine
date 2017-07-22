@@ -9,29 +9,33 @@ and open the template in the editor.
 */
 
 body{
-  margin: 0;
-  background-color:#E74C3C;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height:100vh;
+    margin: 0;
+    background-color:#E74C3C;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
 }
 
 header{
-  color: aliceblue;
+    color: aliceblue;
 }
 
 main.box{
-  position: relative;
-  background-color:white;
-  width:50%;
-  border-radius:10px;
-  text-align:center;
-  height:40%;
-  padding:2rem;
-  min-height: 200px;
-  min-width: 200px;
+    position: relative;
+    background-color:white;
+    width:50%;
+    border-radius:10px;
+    text-align:center;
+    height:40%;
+    padding:2rem;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+div.quote{
+    font-size: 1.2em;
 }
 
 img{
