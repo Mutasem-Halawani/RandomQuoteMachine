@@ -22,12 +22,18 @@ header{
     color: aliceblue;
 }
 
+@media only screen and (max-width: 400px) {
+    header {
+        font-size: 0.8em;
+    }
+}
+
 main.box{
     max-width: 650px;
     background-color:white;
     border-radius:10px;
     text-align:center;
-    padding:2rem;
+    padding: 2em;
     min-height: 200px;
     min-width: 200px;
 }
@@ -44,4 +50,5 @@ div.quote{
 button{
     color: white;
 }
+
 
