@@ -23,25 +23,22 @@ header{
 }
 
 main.box{
-    position: relative;
+    max-width: 650px;
     background-color:white;
-    width:50%;
     border-radius:10px;
     text-align:center;
-    height:40%;
     padding:2rem;
     min-height: 200px;
     min-width: 200px;
 }
 
-div.quote{
-    font-size: 1.2em;
+div.box-footer{
+    display: flex;
+    justify-content: space-between;
 }
 
-img{
-    position: absolute;
-    left:1rem;
-    bottom: 0.2rem;
+div.quote{
+    font-size: 1.2em;
 }
 
 button{
